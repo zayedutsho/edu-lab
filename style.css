@@ -5,4 +5,13 @@
         align-items: center;
 
     }
+
+    .d-flex {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .d-flex img {
+        width: 100%;
+    }
 }
